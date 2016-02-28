@@ -1,0 +1,27 @@
+/* Carousel Styling */
+.slide1, .slide2, .slide3 {
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none;
+    color: #337ab7;
+}
+.carousel-caption h1 {
+    font-size: 5.4em;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: .4em;
+    color: #000;
+}
+
+/* Jumbotron Styling */
+.container-fluid .jumbotron {
+    margin-bottom: 0px;
+    border-radius: 0px;
+}
+.jumbotron > p {
+    font-size: 1em;
+}
