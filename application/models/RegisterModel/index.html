@@ -1,0 +1,61 @@
+<div class="container-fluid clearfix">
+    <div class="row">
+        <div class="col-md-4 col-md-offset-4">
+            <div class="jumbotron">
+                <h4>Please sign up for an account below.</h4>
+                <div id="form-wrapper">
+                    <form class="form-horizontal" id="formRegister" method="POST" action="http://localhost/site-schoolboard/register/">
+                        <div class="form-group">
+                            <label for="registerFirstName" class="col-md-3">First Name</label>
+                            <div class="col-md-9">
+                                <input type="text" class="form-control" id="registerFirstName" name="registerFirstName" placeholder="First Name">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="registerLastName" class="col-md-3">Last Name</label>
+                            <div class="col-md-9">
+                                <input type="text" class="form-control" id="registerLastName" name="registerLastName" placeholder="Last Name">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="registerEmail" class="col-md-3">Email</label>
+                            <div class="col-md-9">
+                                <input type="text" class="form-control" id="registerEmail" name="registerEmail" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="registerUsername" class="col-md-3">Username</label>
+                            <div class="col-md-9">
+                                <input type="text" class="form-control" id="registerUsername" name="registerUsername" placeholder="Username">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="registerPassword" class="col-md-3">Password</label>
+                            <div class="col-md-9">
+                                <input type="text" class="form-control" id="registerPassword" name="registerPassword" placeholder="Password">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="registerConfirmPassword" class="col-md-3">Confirm Password</label>
+                            <div class="col-md-9">
+                                <input type="text" class="form-control" id="registerConfirmPassword" name="registerConfirmPassword" placeholder="Password">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="registerMemberType" class="col-md-3">Member</label>
+                            <div class="col-md-9 radio">
+                                <label class="radio-inline">
+                                    <input type="radio" name="registerMemberType" value="faculty">Faculty
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="registerMemberType" value="student" checked>Student
+                                </label>
+                            </div>
+                        </div>
+                        <button type="submit" id="btnSubmit" class="btn btn-default pull-right">Register</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
