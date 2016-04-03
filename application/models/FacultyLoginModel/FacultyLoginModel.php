@@ -47,7 +47,7 @@ class FacultyLoginModel {
             $_SESSION['logged'] = 'true';
 
             if ( $query->rowCount() > 0 ) {
-                header('Location: http://localhost/facultydashboard.html');
+                header('Location: http://localhost/site-schoolboard/facultydashboard/');
             }
         }
     }
